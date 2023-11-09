@@ -1,0 +1,40 @@
+Aqui está um exemplo de como você pode criar o arquivo README para o projeto:
+
+# Password Validator
+
+Este é um simples projeto em Java que implementa uma função para validar se uma senha é considerada válida com base em critérios específicos.
+
+## Executando o Projeto
+
+Para executar o projeto, você pode seguir os seguintes passos:
+
+1. Certifique-se de ter o Java Development Kit (JDK) instalado em seu sistema.
+2. Clone o repositório para o seu ambiente local.
+3. Abra o projeto em seu ambiente de desenvolvimento Java preferido.
+4. Compile e execute a classe PasswordValidator.
+
+## Detalhes da Solução
+
+Nesta implementação, utilizamos expressões regulares para verificar se uma senha atende a determinados critérios de validação. A expressão regular verifica se a senha tem nove ou mais caracteres, possui pelo menos um dígito, uma letra minúscula, uma letra maiúscula e um dos seguintes caracteres especiais: !@#$%^&*()-+.
+
+Para adicionar mais complexidade à validação, o método `isValidPassword` pode ser estendido com mais verificações, se necessário.
+
+Os testes unitários implementados verificam se a função de validação retorna o resultado esperado para senhas válidas e inválidas, fornecendo uma cobertura básica de testes para a lógica implementada.
+
+## Decisões de Implementação
+
+O uso de expressões regulares simplifica a verificação dos critérios de validação da senha de forma eficiente. A escolha de expressões regulares para este projeto foi baseada na facilidade de implementação e na clareza do código.
+
+Os testes unitários foram adicionados para garantir que a função de validação está funcionando corretamente e para fornecer uma base de verificação durante o desenvolvimento contínuo.
+
+## Assumções
+
+Para este projeto, assumimos que as definições de senha válida e os critérios de validação fornecidos são suficientes. No entanto, se houver necessidade de adicionar mais regras ou critérios específicos de validação, o método `isValidPassword` pode ser facilmente estendido para atender a essas exigências adicionais.
+
+Se houver alguma premissa ou condição que não tenha sido especificada e que possa afetar a implementação, pedimos desculpas e pedimos que nos informe para que possamos ajustar a solução de acordo.
+
+## Contribuição
+
+Contribuições são bem-vindas! Se você encontrar alguma melhoria ou problema, sinta-se à vontade para abrir uma issue ou enviar um pull request.
+
+Esperamos que este projeto seja útil e demonstre de forma clara e concisa como implementar uma função de validação de senha em Java.
